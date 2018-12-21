@@ -1,0 +1,23 @@
+{
+  "name": "baseapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-modules index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Douglas Pacor",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "pg": "^7.7.1",
+    "sequelize": "^4.41.2"
+  },
+  "devDependencies": {
+    "dotenv": "^6.1.0"
+  }
+}
